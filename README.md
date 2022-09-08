@@ -47,8 +47,8 @@ manifest-1657064287305\CBIS-DDSM\Calc-Test_P_00038_LEFT_CC\08-29-2017-DDSM-NA-96
 
 From Dataset-DDSM-png this script make a dataset using full mammograms. He apply zero-padding and resize. Split in malignant and benign. 
 
-> python padding_resize_split_dataset.py oneView <hidth> <weight>
+> python padding_resize_split_dataset.py oneView (hidth) (weight)
 
 # Zip a Directory
 
-> python zip_directory.py <name-my-directory> <name-my-zip-directory>
+> python zip_directory.py (name-my-directory) (name-my-zip-directory)
