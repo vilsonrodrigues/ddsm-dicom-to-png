@@ -49,4 +49,6 @@ From Dataset-DDSM-png this script make a dataset using full mammograms. He apply
 
 > python padding_resize_split_dataset.py oneView <hidth> <weight>
 
+# Zip a Directory
 
+> python zip_directory.py <name-my-directory> <name-my-zip-directory>
