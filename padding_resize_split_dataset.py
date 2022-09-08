@@ -123,9 +123,9 @@ def one_view_dataset():
                         del image_padding
                         del image_resized         
                         if train_or_test == 'train': 
-                            count_train=+1
+                            count_train+=1
                         else: 
-                            count_test=+1  
+                            count_test+=1  
                     except Exception as e:
                         print(e)
                         print(filename)          
